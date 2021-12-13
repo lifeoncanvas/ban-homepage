@@ -1,10 +1,15 @@
 import React from 'react'
+import classes from './styles.module.css'
 
 const Navbar = () => {
 	return (
-		<div>
-			Navbar
-		</div>
+		<>
+		  {/* <header className={classes.header_section} >
+			  <div className={classes.transperent}>
+			  </div>
+		  </header> */}
+		  Navbar
+		</>
 	)
 }
 
